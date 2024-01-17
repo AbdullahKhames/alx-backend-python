@@ -3,11 +3,10 @@
 """
 import random
 import asyncio
-from types import NoneType
 from typing import Generator
 
 
-async def async_generator() -> Generator[float, NoneType, NoneType]:
+async def async_generator() -> Generator[float, None, None]:
     """function that test async comprehension
     """
     for _ in range(10):
